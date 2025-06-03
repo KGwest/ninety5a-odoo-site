@@ -1,0 +1,70 @@
+<t name="Homepage" t-name="website.homepage">
+    <t t-call="website.layout">
+  
+        <t t-set="pageName" t-value="'homepage'"/>
+          <div id="mic-overlay" class="">
+              <h2>🎤 Want a quick demo?</h2>
+              <p>Say: <strong>"Train with intent"</strong> or <strong>"Training for moments"</strong></p>
+              <button id="grant-mic-access">Enable Voice</button>
+              <button style="position: absolute; top: 20px; right: 30px; font-size: 2rem; background: none; border: none; color: rgb(255, 215, 0); cursor: pointer;">×</button>
+              <p style="font-size: 0.8rem; color: #ccc; margin-top: 0.5rem;">
+                🔒 We value your privacy. Your voice input is processed locally. No recordings are stored.
+              </p>
+            </div>
+    <div id="wrap" class="oe_structure">
+      <section class="s_banner o_cc o_cc5 o_colored_level" data-name="Banner">
+        <div class="container-fluid">
+          <div class="o_colored_level" style="z-index: 3; height: 100vh; display: flex; align-items: center; justify-content: center;">
+           <section id="tagline-section">
+            <h2 id="tagline" class="tagline fade-in visible" style="color: white; text-shadow: none; opacity: 0;">
+              We help you train for the moments that matter<span class="blinking-cursor">.</span>
+            </h2>
+            
+            <div id="training-gif-container" style="display: block; margin-top: 2rem; text-align: center;">
+              <video id="training-video" width="720" autoplay="autoplay" muted="muted" loop="loop" style="opacity: 1; transition: opacity 1s ease-in-out;">
+                <source src="/path-to-your-video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </source></video>
+            </div>
+
+              
+             
+                <div id="insight-tags" style="display: block; margin-top: 2rem; text-align: center; opacity: 0; transition: opacity 1s ease-out;">
+                  <p class="insight-tag" id="insight-text" style="font-size: 1.1rem; color: rgb(255, 215, 0); opacity: 0;">⏱️ You speak with measured precision. This supports long-term memory retention in learning environments.</p>
+                </div>
+
+                  
+                <div id="insight-tags" style="display: none; margin-top: 2rem; text-align: center;">
+                  <p class="insight-tag">🔎 Your voice shows confident pacing and a clear sense of purpose.</p>
+                  <p class="insight-tag">🗣️ You speak with high information density. Consider how you modulate for different audiences.</p>
+                  <p class="insight-tag">🧠 You likely process information quickly and benefit from goal-oriented feedback.</p>
+                  <p class="insight-tag">💬 You sound like someone who leads with intent — this helps build trust fast.</p>
+                </div>
+
+            </section>
+          </div>
+        </div>
+      </section>        
+        
+      <section class="s_text_block o_cc o_cc5 o_colored_level pt0 pb56" data-name="Text">
+        <div class="container">
+           <div class="homepage-content">
+              <h2 class="fade-in tagline visible">Train Smarter. Move Faster. Make It Matter.</h2>
+              <p class="fade-in visible"><strong class="highlight-glow">NinetyFiveARTS: Project Atlas</strong></p>
+              <p class="fade-in visible">
+                We fuse immersive design, intelligent systems, and spatial computing to craft tools that make <strong class="highlight-glow">training</strong> more intuitive, <strong class="highlight-glow">property data</strong> more interactive, and <strong class="highlight-glow">decision-making</strong> more informed.
+              </p>
+              <p class="fade-in visible">
+                Built for mission-critical operations in the public and private sectors, our tools offer measurable performance insights and cultural adaptability.
+              </p>
+            </div>
+
+          </div>
+      </section>
+      <section style="height: 30vh;">
+      </section>
+
+    </div>        
+            
+   </t>
+</t>
